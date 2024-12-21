@@ -14,6 +14,9 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     xdg-utils && \
     apt-get clean
 
+RUN R -e "install.packages('leaflet.extras')"
+RUN apt-get install -y libxml2 libcurl4-openssl-dev libssl-dev
+
 # Install R packages
 RUN R -e "install.packages(c('shiny', 'leaflet', 'RPostgreSQL', 'shinyjs', 'htmlwidgets', 'dplyr', 'leaflet.extras'), dependencies = TRUE)"
 
