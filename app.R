@@ -15,7 +15,7 @@ library(leaflet.extras)
 
 ui <- fluidPage(
   #titlePanel("Polar Women Mapping"),
-  leafletOutput("map",height="100vh"),
+  leafletOutput("map"),
   absolutePanel(
     top = "10px", right = "10px", width = 300,
     style = "background-color: white; padding: 10px;",
