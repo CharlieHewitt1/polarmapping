@@ -5,7 +5,7 @@ library(shinyjs)
 library(htmlwidgets)
 library(dplyr)
 library(leaflet.extras)
-library(RPostgres)  # Load the RPostgres package for PostgreSQL connection
+library(RPostgreSQL)  # Load the RPostgres package for PostgreSQL connection
 
 # Define your database connection parameters
 db_host <- "charlie-database-do-user-15462105-0.c.db.ondigitalocean.com"
