@@ -14,6 +14,10 @@ library(leaflet.extras)
 
 
 ui <- fluidPage(
+  tags$head(
+    tags$link(rel = "stylesheet", href = "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"),
+    tags$script(src = "https://unpkg.com/leaflet@1.9.3/dist/leaflet.js")
+  ),
   #titlePanel("Polar Women Mapping"),
   leafletOutput("map"),
   absolutePanel(
