@@ -16,8 +16,8 @@ ui <- fluidPage(
     style = "background-color: white; padding: 10px;",
     tags$p(
       style = "font-size: 20px; font-weight: bold;",
-      "Mapping Women of the Arctic"),
-    p("Mapping Women of the Arctic is a mapping project spotlighting the stories, contributions and geolocations of women* of the Arctic from all walks of life – women who live in, work in, or engage with the Arctic."),
+      "Mapping Women+ of the Arctic"),
+    p("Mapping Women+ of the Arctic is a mapping project spotlighting the stories, contributions and geolocations of women+* of the Arctic from all walks of life – women who live in, work in, or engage with the Arctic."),
     p("The project and map seek to challenge “what makes a person notable” – and the pervasive heroic male and colonial historical narrative of the Arctic."),
     p("*any individual who identifies as a woman")
   ),
